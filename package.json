@@ -1,0 +1,22 @@
+{
+  "name": "saad-web-experiments-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Saad Web Experiments",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test:env": "node test-env.js",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": ["api", "mongodb", "express"],
+  "author": "Muhammad Saad Amin",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^8.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
